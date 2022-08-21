@@ -5,6 +5,12 @@ Argument : int
 Return type : int
 For eg: if n is 10, you have to find
 (1(square)+2(square)+3(square)+.....10(square)) - (1+2+3+.....+10)(square)    
+
+output:
+------
+Please enter the final number
+10
+-2640
 */
 
 import java.util.Scanner;
