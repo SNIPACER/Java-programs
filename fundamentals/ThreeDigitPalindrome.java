@@ -13,12 +13,14 @@ if the given number is not an three digit number, return -2
 
 import java.util.Scanner;
 
-public class Task5 {
+public class Test5 {
 	int n,m,y=0,z;
 	public static void main(String[] args) {
 		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter THREE digit number:");
 			int x=sc.nextInt();
-			System.out.println(new Task5().isPalindrome(x));
+			
+			System.out.println(new Test5().isPalindrome(x));
 		}
 		
 	}
@@ -39,11 +41,14 @@ public class Task5 {
 				a=a/10;
 			}
 			if(m==y) {
-        System.out.println(y);
+				System.out.println(y+" is palindrome");
 				return 1;
 			}
-			else 
+			else {
+				System.out.println("Not palindrome");
 				return 0;
+			}
+				
 		}
 		else 
 			return 0;
